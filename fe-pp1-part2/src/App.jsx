@@ -1,5 +1,6 @@
 import "./App.css";
 import CreditCard from './CreditCard.jsx'
+import BoxColor from './BoxColor.jsx'
 
 function App() {
   return (
@@ -36,6 +37,16 @@ function App() {
         owner="Firstname Lastname"
         bgColor="#ddbb55"
         color="white"
+      />
+      <BoxColor 
+        r={255} 
+        g={0} 
+        b={0}
+      />
+      <BoxColor 
+        r={128} 
+        g={255} 
+        b={0}
       />
     </div>
   );
